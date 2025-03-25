@@ -1,0 +1,6 @@
+input:-webkit-autofill {
+    background-color: #F7F8F9; /* Ensures background stays normal */
+    color: inherit !important; /* Keeps text color the same */
+    -webkit-box-shadow: 0 0 0px 1000px #F7F8F9 inset !important;
+    transition: background-color 5000s ease-in-out 0s; 
+  }
